@@ -1,7 +1,7 @@
 package com.heisy.creational.singleton;
 
 public class Lazy {
-    private static Lazy instance;
+    private static volatile Lazy instance;
     private Lazy(){}
     //双重检查锁:
     public static Lazy getInstance(){
