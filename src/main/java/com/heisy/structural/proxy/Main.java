@@ -6,5 +6,12 @@ public class Main {
         sell.sell();
         ProxyPoint proxy = new ProxyPoint();
         proxy.sell();
+
+        //动态代理
+        JDKProxyFactory jdkProxyFactory = new JDKProxyFactory();
+        jdkProxyFactory.getProxyObject().sell();
+
+        CGLIBProxyFactory cglibProxyFactory = new CGLIBProxyFactory();
+        cglibProxyFactory.getProxyObject().sell();
     }
 }
