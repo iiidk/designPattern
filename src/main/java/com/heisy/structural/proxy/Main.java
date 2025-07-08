@@ -11,7 +11,7 @@ public class Main {
         JDKProxyFactory jdkProxyFactory = new JDKProxyFactory();
         jdkProxyFactory.getProxyObject().sell();
 
-        CGLIBProxyFactory cglibProxyFactory = new CGLIBProxyFactory();
+        CGLibProxyFactory cglibProxyFactory = new CGLibProxyFactory();
         cglibProxyFactory.getProxyObject().sell();
     }
 }

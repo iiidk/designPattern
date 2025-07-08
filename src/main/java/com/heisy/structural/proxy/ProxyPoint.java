@@ -1,5 +1,8 @@
 package com.heisy.structural.proxy;
 
+/**
+ * 静态代理类
+ */
 public class ProxyPoint implements SellTickets {
     private TrainSell station = new TrainSell();
 

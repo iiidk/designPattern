@@ -6,7 +6,7 @@ import net.sf.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
-class CGLIBProxyFactory implements MethodInterceptor {
+class CGLibProxyFactory implements MethodInterceptor {
     private TrainSell target = new TrainSell();
     public TrainSell getProxyObject() {
         //创建Enhancer对象，类似于JDK动态代理的Proxy类
